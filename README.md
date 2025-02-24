@@ -7,7 +7,6 @@ Usage: """  ./run_lidar2imu <lidar_pcds_dir> <lidar_pose_file> <extrinsic_json> 
 (base) paavan@paavan-ubuntu20:~$ ~/SensorsCalibration/lidar2imu/auto_calib/bin/run_lidar2imu ~/SensorsCalibration/lidar2imu/auto_calib/data/top_center_lidar/ ~/SensorsCalibration/lidar2imu/auto_calib/data/NovAtel-pose-lidar-time.txt ~/SensorsCalibration/lidar2imu/auto_calib/data/gnss-to-top_center_lidar-extrinsic.json
 gnss-to-top_center_lidar-extrinsic
 
---------------------------------------------------------
 # Data Requirements for Running the Calibration Tool
 
 1. Lidar PCDs Directory:
@@ -27,10 +26,8 @@ Sample Data:
 Description: A JSON file containing the initial extrinsic calibration parameters between the Lidar and another reference frame (e.g., GNSS or vehicle frame).
 Preparation: Perform an initial calibration to determine the transformation matrix between your Lidar sensor and the reference frame. Format this matrix in a JSON file similar to the sample data.
 
-----------------------------------------------------------
 # Organize Data:
 Organize your data files in a directory structure similar to the sample data to ensure compatibility with the tool's expected input paths.
-
 
 # Running the Tool on Your Data:
 ~/SensorsCalibration/lidar2imu/auto_calib/bin/run_lidar2imu <path_to_your_lidar_data> <path_to_your_imu_data> <path_to_your_extrinsic_file>
