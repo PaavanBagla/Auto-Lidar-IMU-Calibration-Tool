@@ -1,0 +1,23 @@
+{
+    "imu-to-lidar-extrinsic": {
+        "param_type": "extrinsic",
+        "sensor_name": "imu",
+        "target_sensor_name": "lidar",
+        "device_type": "relational",
+        "param": {
+            "sensor_calib": {
+                "data": [
+                    [0, 1, 0, 1.435],
+                    [-1, 0, 0, 0],
+                    [0, 0, 1, 1.324],
+                    [0, 0, 0, 1.0]
+                ],
+                "continuous": true,
+                "rows": 4,
+                "type": 6,
+                "cols": 4
+            },
+            "time_lag": 0
+        }
+    }
+}
