@@ -1,4 +1,4 @@
-# Auto-Calibration-Tool
+# Auto-Lidar-IMU-Calibration-Tool
 Tool Repository: https://github.com/PJLab-ADG/SensorsCalibration/tree/master/lidar2imu
 
 # Automatic Calibration Tool Usage Instructions
