@@ -1,6 +1,5 @@
 # Auto-Calibration-Tool
 
---------------------------------------------------------
 # Automatic Calibration Tool Usage Instructions
 Usage: """  ./run_lidar2imu <lidar_pcds_dir> <lidar_pose_file> <extrinsic_json>  """
 
